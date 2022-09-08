@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    font-family: 'Combo', cursive;
+    padding: 16px 0;
+    background-color: #04151F;
+}
+body{
+    background-color: #183A37;
+}
+header nav li{
+    margin-left: 16px;
+    font-size: 16px;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #04151F;  
+} 
+
+header img{
+    height: 100px;
+}
+
+header li {
+    float: right;
+} 
+header li a {
+    display: block;
+    color:crimson;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-transform: uppercase;
+  }
+header li a:hover {
+    background-color: #111;
+    color:bisque;
+  }
+.container{
+    max-width: 1280px;
+    height: 85%;
+    width: 100%;
+    margin:0 auto;
+}
+
+header .container, section .container{
+    display: flex;
+    justify-content: space-between;
+}
+.notice{
+    background-color: white;
+    color: crimson;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+.notice img{
+    margin-left: 10px;
+    height: 30px;
+}
+
+.podcast-cover{
+    width: 100%;
+}
+
+section{
+    padding: 24px;
+    color:white;
+}
+
+section .container {
+    align-items: flex-start;
+}
+section .container h1{
+    padding: 30px;
+    width: 40%;
+    text-transform: uppercase;
+    color: crimson;
+}
+section .container p{
+    max-width: 100%;
+    width: 800px;
+    margin-top: 25px;
+    padding: 15px;
+}
+
+section .container img{
+    height: 350px;
+    width: 350px;
+}
+
+#about a, form button {
+    background-color: crimson;
+    color: white;
+    padding: 8px 15px;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 150px;
+    margin-top: 8px;   
+}
+
+#about a:hover, form button:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+#contact {
+    color: #183A37;
+    width: 100%;
+    max-width: 100%;
+    background-color: antiquewhite;
+}
+
+#contact img{
+    max-width: 100%;
+    max-height: 100%;
+    left: 55%;
+    height: 65%;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+form input, textarea{
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 40%;
+    margin-left: 40%;
+    padding: 4%;
+    margin-top: 5%;
+    outline-color: crimson;
+    resize: none;
+}
+form textarea{
+    height: 100px;
+}
+
+form button{
+    position: relative;
+    left: 20%;
+    height: 60px;
+    width: 85px;
+    padding: 10px 5px;
+}
+
+.container li{
+    max-width: 1280px;
+    padding: 7%;
+    font-size: 20px;
+    display: inline;
+    text-align: center;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: #04151F;
+    color: white;
+    text-align: center;
+}
+
+#plataform .medias li{
+    display: inline;
+    font-size: 30px;
+    padding: 10px;
+    margin: 15px;
+}
+
+#plataform .medias a,
+footer .social img{
+    margin-left: 10%;
+    right:40%;
+    -webkit-filter: grayscale(100%);
+}
+
+#plataform .medias a:hover,
+footer .social img:hover{
+    cursor: pointer;
+    -webkit-filter: grayscale(0);
+}
+
+#material-symbols-outlined{
+    font-weight: normal;
+}
+.returnbar{
+    color: gray;
+    position: fixed;
+    bottom: 35px;
+    right: 30px;
+}
+
+
+.returnbar:hover{
+    color: crimson;
+}
+
+footer .social{
+    background-color: #04151F;
+    display: flex;
+    justify-content: right;
+    
+}
+
+footer .social img{
+    height: 30px;
+    right: 75%;
+    margin-left: 0%;
+    position: relative;
+    margin-top: 25px;
+}
+
+footer .social h3{
+    font-weight: normal;
+}
