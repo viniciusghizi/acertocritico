@@ -80,7 +80,7 @@ section .container {
 }
 section .container h1{
     display: flex;
-    width: 15%;
+    width: 20%;
     text-transform: uppercase;
     color: crimson;
 }
